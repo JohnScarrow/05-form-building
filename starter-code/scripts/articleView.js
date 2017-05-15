@@ -86,7 +86,7 @@ articleView.initNewArticlePage = function() {
   });
 
   // TODO: Add an event handler to update the preview and the export field if any inputs change.
-$('#new-form').on('change', articleView.create);
+  $('#new-form').on('change', articleView.create);
 };
 
 articleView.create = function() {
@@ -109,7 +109,6 @@ articleView.create = function() {
   $('#articles').append(article.toHtml());
 
   // TODO: Activate the highlighting of any code blocks; look at the documentation for hljs to see how to do this by placing a callback function in the .each():
-  
   $('section.article-body').each(function(i, block) {
     hljs.highlightBlock(block);
   });
