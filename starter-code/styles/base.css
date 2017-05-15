@@ -46,3 +46,29 @@ a:visited {
 /*FORM STYLES
 =======================================*/
 /*TODO: Add the CSS needed to style the form*/
+label {
+  display: block;
+}
+input {
+  outline: none;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #cbcfd6;
+  height: 40px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #cbcfd6;
+}
+input:focus {
+    outline: none;
+    border-color: #8af260;
+}
+textarea:focus {
+    outline: none;
+    border-color: #8af260;
+}
+#artilcle-published {
+    width: 25px;
+}
